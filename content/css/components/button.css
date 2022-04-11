@@ -1,0 +1,80 @@
+.btn{
+    display: inline-block;
+    padding: 0.8em 1em;
+    line-height: 1em;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    text-shadow: 20px gray;
+    border-radius: 3px;
+    border: 20px rgb(0, 0, 0);
+    box-shadow: 
+    5px 5px 10px rgb(17, 8, 97),
+    -5px -5px 10px rgba(70, 70, 70, 0.12);  
+
+
+    /* animation: load1 5s infinite ;
+  }
+  
+  @keyframes load1 {
+    0% {
+      width: 80%;
+      background: transparent;
+    }
+    
+    
+    100% {
+      
+      width: 90%;
+      background: #4102b5; */
+      
+    /* } */
+    
+}
+.btn + .btn {  /*  salia pirmo(i6 kaires) elementas 2 igauna stiliu    */
+    margin-right: 20px;
+}
+.btn:hover{
+
+    
+    box-shadow: 
+    5px 5px 20px rgb(17, 8, 97),
+    -10px -10px 20px rgba(70, 70, 70, 0.12); 
+    
+
+}
+
+.fa-brands{
+    
+    font-size: 30px;
+    color: #fff;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    line-height: 40px;
+    border-radius: 35px;
+    transition:  500ms;
+}
+
+.fa-angles-up:hover{
+
+animation: roling 1s infinite;
+}
+
+@keyframes roling {
+
+  0% {
+    line-height: 15px;
+  }
+  
+  50% {
+    line-height: 60px;
+  }
+  100% {
+    line-height: 15px;
+  }
+}
