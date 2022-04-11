@@ -1,6 +1,5 @@
 @import './button.css';
 @import './reset.css';
-@import '../../font/fontawesome-free-6.1.1-web/css/fontawesome.min.css';
 
 body{
 
@@ -10,16 +9,51 @@ body{
     gap: 50px;  /* tarpas tarp visu vaiku*/
     align-items: center; /* align skirtas stulpelems, o justivy skirtas eilutem(row) ir atvirksciai*/
     /* justify-content: center; */
-    background-color: bisque;
+    padding: 20px;
     
 }
 
 .container {    
-    width: 100%;
-    background-color: aquamarine;
     
-
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
 }
+.container > *:first-child{
+    margin-right: auto;
+}
+.gallery{
+    
+    
+}
+.logo{
+    max-height: 80px;
+}
+
+.nav{
+    display: flex;
+    gap: 20px;
+}
+
+.header-nav {
+
+    text-decoration: none;
+    color: black;
+}
+.header-nav:hover{
+    color: red;
+    
+}
+.icon{
+    height: 25px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+
 
 @media (min-width: 480px){
     .container{
