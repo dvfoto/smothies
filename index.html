@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smoothies</title>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="./content/css/components/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <title>Smoothies</title>
 </head>
 <body>
     <header class="container">
@@ -16,8 +21,10 @@
             <a class="header-nav" href="#">Contact us</a>
         </nav>
         <nav class="nav">
-            <img class="icon" src="./content/img/ikonos/shopping-cart.png" alt="">
-            <img class="icon" src="./content/img/ikonos/search.png" alt="">
+            <a href="#" class="material-icons">
+                add_shopping_cart
+            </a>
+            <a href="#" class="material-icons"> search </a>
         </nav>
             
     </header>
@@ -25,11 +32,51 @@
     <main class="container">
         
         <div class="gallery">
-            Gallery 
+            <img src="./content/img/smoothie.png" alt="smoothies">
+            <a href="# " class="material-icons left ">arrow_back_ios_new </a>
+
+            <a href="# " class="material-icons right"> &#xe5e1 </a>
+            
         </div>
-        <div class="text">
-            Abuot item 
+        <div class="left-column"> <!-- disp flex -->
+            <div class="content-text">  <!--  elutemis -->
+                
+                <h2 class="h2">Berries</h2>
+                <h1 class="h1">Strawberry rush</h1>
+                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> 
+            </div>
+            <div class="content2-text">
+                <div class="vitamins">
+                 <h3 class="h3">Nutrition benefits:</h3>
+                 <ul class="vitamins-list">
+                     <div>
+                     <li class="material-icons">add</li>
+                     <li class="material-icons">add</li>
+                     <li class="material-icons">add</li>
+                    </div>
+                    <div>
+                    <li class="list">Vitamin A</li>
+                    <li class="list">Vitamin C</li>
+                    <li class="list">Citrin Acid</li>
+                    </div>
+                </ul>              
+                 </div>
+                 <div class="vitamins">
+                <h3 class="h3">Contents:</h3>
+                    <ul class="contents">
+                        <img class="contents-img" src="./content/img/bananas.png" alt="bananas">
+                        <img class="contents-img" src="./content/img/mangas.png" alt="mangas">
+                        <img class="contents-img" src="./content/img/obuolys.png" alt="obuolys">
+                    </ul>
+            </div>
         </div>
+        
+        </div>
+
+            </span>
+
+
+        
 
     </main>
 </body>
