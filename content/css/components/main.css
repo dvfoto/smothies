@@ -4,12 +4,12 @@
 body{
 
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     flex-direction: column;
     gap: 50px;  /* tarpas tarp visu vaiku*/
     align-items: center; /* align skirtas stulpelems, o justivy skirtas eilutem(row) ir atvirksciai*/
     /* justify-content: center; */
-    padding: 20px;
+    padding: 20px 0;
     background-color: #ffffff;
 }
 .container-heder{
